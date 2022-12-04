@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.XYZBank.extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="HomePageTest(failed)">
+    <classes>
+      <class name="com.XYZBank.testscripts.HomePageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="frameworkSetUp"/>
+          <include name="bankManagerLoginBtn"/>
+        </methods>
+      </class> <!-- com.XYZBank.testscripts.HomePageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

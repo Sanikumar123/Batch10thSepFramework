@@ -1,0 +1,6 @@
+#surefire_0
+#Sat Dec 03 10:41:01 IST 2022
+testngfile=src/test/resources/runner/HomePageTest.xml
+user.dir=D\:\\Core_JAVA_23rd_July\\Batch10thSepFramework
+localRepository=C\:\\Users\\91898\\.m2\\repository
+basedir=D\:\\Core_JAVA_23rd_July\\Batch10thSepFramework

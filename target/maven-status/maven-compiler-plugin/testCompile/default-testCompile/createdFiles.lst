@@ -1,0 +1,7 @@
+com\XYZBank\datareaders\DataProviders.class
+com\XYZBank\extentlisteners\ExtentManager.class
+com\XYZBank\datareaders\DataReader.class
+com\XYZBank\testscripts\BankManagerLoginPageTest.class
+com\XYZBank\testbase\TestBase.class
+com\XYZBank\extentlisteners\ExtentListeners.class
+com\XYZBank\testscripts\HomePageTest.class

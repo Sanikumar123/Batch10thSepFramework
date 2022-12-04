@@ -1,0 +1,5 @@
+com\XYZBank\testpages\BankManagerLoginPage.class
+com\XYZBank\utility\DriverFactory.class
+com\XYZBank\testpages\HomePage.class
+com\XYZBank\utility\Constants.class
+com\XYZBank\testpages\Basepage.class
