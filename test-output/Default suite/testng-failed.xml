@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.XYZBank.testscripts.BankManagerLoginPageTest">
+      <class name="com.XYZBank.testscripts.Misc">
         <methods>
-          <include name="addACustomer" invocation-numbers="0 1"/>
-          <include name="closeBrowser"/>
-          <include name="frameworkSetUp"/>
+          <include name="sortItem"/>
         </methods>
-      </class> <!-- com.XYZBank.testscripts.BankManagerLoginPageTest -->
+      </class> <!-- com.XYZBank.testscripts.Misc -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

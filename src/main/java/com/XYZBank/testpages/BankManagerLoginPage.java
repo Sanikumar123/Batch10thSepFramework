@@ -61,5 +61,18 @@ public class BankManagerLoginPage extends Basepage {
 					click(addCustomer);
 					
 				}
+				
+				
+				
+				public void clickCustomersBtn()
+				{
+				   click(custBtn);
+				}
+				
+				public OpenAccountPage clickOpenAccountBtn()
+				{
+				   click(openAccountBtn);
+				   return new OpenAccountPage(driver);
+				}
 
 }

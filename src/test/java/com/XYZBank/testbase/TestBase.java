@@ -17,6 +17,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.XYZBank.extentlisteners.ExtentListeners;
 import com.XYZBank.utility.Constants;
 import com.XYZBank.utility.DriverFactory;
 
@@ -57,6 +58,10 @@ public class TestBase {
 		
 		
 		}
+	
+	public void logInfo(String message) {
+		ExtentListeners.testReport.get().info(message);
+	}
 	
 	
 	public void openBrowser()

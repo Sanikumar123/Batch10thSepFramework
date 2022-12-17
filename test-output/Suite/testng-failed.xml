@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="com.XYZBank.extentlisteners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="HomePageTest(failed)">
+  <test thread-count="5" name="openCustomerAccount(failed)">
     <classes>
-      <class name="com.XYZBank.testscripts.HomePageTest">
+      <class name="com.XYZBank.testscripts.OpenAccountTestPage">
         <methods>
           <include name="closeBrowser"/>
+          <include name="openCustomerAccount"/>
           <include name="frameworkSetUp"/>
-          <include name="bankManagerLoginBtn"/>
         </methods>
-      </class> <!-- com.XYZBank.testscripts.HomePageTest -->
+      </class> <!-- com.XYZBank.testscripts.OpenAccountTestPage -->
     </classes>
-  </test> <!-- HomePageTest(failed) -->
+  </test> <!-- openCustomerAccount(failed) -->
 </suite> <!-- Failed suite [Suite] -->
